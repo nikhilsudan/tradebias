@@ -23,3 +23,22 @@ It processes CSV trade logs to detect common psychological trading biases (FOMO,
 python3 -m venv venv
 source venv/bin/activate      # macOS / Linux
 # or: venv\Scripts\activate    # Windows (PowerShell)
+
+---
+
+## 📂 Project Structure
+
+tradebias_ai/
+├── data/
+│ ├── raw/ # Raw input trade data (CSV files)
+│ └── processed/ # Processed / cleaned trade reports
+├── notebooks/ # Jupyter notebooks for EDA & visuals
+├── src/ # Core Python code (package)
+│ ├── init.py
+│ ├── bias_detector.py
+│ ├── generate_synthetic.py
+│ ├── tradebias.py
+│ └── main.py
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+└── LICENSE # MIT License
