@@ -26,6 +26,14 @@ source venv/bin/activate      # macOS / Linux
 
 ---
 
+## Example Visuals
+Bias Frequency (Bar Chart)
+Bias Distribution (Pie Chart)
+Bias Timeline Over Trading Sessions
+
+---
+
+
 ## 📂 Project Structure
 
 tradebias_ai/
