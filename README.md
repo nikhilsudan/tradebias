@@ -1,33 +1,25 @@
 # TradeBias 🧠📈
-*A behavioral analytics tool for traders*
 
-## Overview
-TradeBias analyzes trading logs to detect **psychological biases** such as FOMO, revenge trading, overtrading, and emotional entries.  
-It provides both **statistical summaries** and **visual insights** to help traders improve discipline and decision-making.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## Features
-- Detects common trading biases from CSV logs  
-- Generates synthetic trade data for testing  
-- Produces statistical summaries (win rate, PnL, bias counts)  
-- Visualizes results with bar charts & pie charts  
-- Modular design for future integration with real trading platforms  
+**TradeBias** is a lightweight behavioral analytics tool for traders.  
+It processes CSV trade logs to detect common psychological trading biases (FOMO, revenge trading, overtrading, emotional entries), produces summary statistics, and creates visual reports to help improve trading discipline.
 
-## Tech Stack
-- **Python** (pandas, matplotlib, seaborn)  
-- **Jupyter Notebooks** for visualization  
-- **VSCode** for development  
+---
 
-## Project Structure
-├── data
-│ ├── raw/ # Raw CSV trade data
-│ └── processed/ # Processed outputs
-├── notebooks/ # Jupyter notebooks for exploration
-├── src/ # Core project source code
-│ ├── init.py
-│ ├── bias_detector.py
-│ ├── generate_synthetic.py
-│ ├── tradebias.py
-│ └── main.py
-├── requirements.txt # Dependencies
-├── README.md # Project documentation
-└── .gitignore
+## Key Features
+- Detects common trading biases from CSV trade logs
+- Generates synthetic trade data for testing and demos
+- Produces summary statistics: win rate, total PnL, average PnL, bias counts
+- Exports a processed CSV report
+- Simple visualizations (bias distribution, PnL histograms)
+- Modular codebase for easy extension (e.g., connect to trading platforms later)
+
+---
+
+## Quick start (local)
+1. Create & activate a Python venv (recommended)
+```bash
+python3 -m venv venv
+source venv/bin/activate      # macOS / Linux
+# or: venv\Scripts\activate    # Windows (PowerShell)
