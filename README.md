@@ -1,61 +1,43 @@
 # TradeBias 🧠📊  
 *A behavioral analytics tool to detect psychological trading biases from trade logs.*
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Last Commit](https://img.shields.io/github/last-commit/your-username/TradeBias)
+![License](https://img.shields.io/badge/license-MIT-green)  
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)  
 
 ---
 
 ## 📌 Overview  
-Traders often lose money not because of lack of strategy, but because of **behavioral biases** such as **FOMO, revenge trading, and overtrading**.  
-**TradeBias** is a Python-based tool that analyzes CSV trade logs to detect such patterns and generate insightful reports.  
+Trading performance is often influenced not just by strategy, but also by psychology.  
+**TradeBias** analyzes trade logs to detect common behavioral biases such as:  
+- Fear of Missing Out (FOMO)  
+- Revenge Trading  
+- Overtrading  
 
-This project highlights skills in **data cleaning, analysis, visualization, and behavioral finance logic** — making it both practical and resume-worthy.  
-
----
-
-## 🚀 Features  
-- 📂 Import trade logs in CSV format  
-- 🔍 Detect common trading biases:
-  - Fear of Missing Out (FOMO)  
-  - Revenge Trading  
-  - Overtrading  
-  - Loss Aversion (optional extension)  
-- 📊 Generate summary statistics  
-- 📑 Export results as a clean, human-readable report  
-- 💡 Modular & extensible design  
+It helps traders understand patterns in their decisions and improve discipline.  
 
 ---
 
-## 🛠️ Tech Stack  
-- **Python** (Pandas, NumPy)  
-- **Matplotlib / Seaborn** (for visualizations)  
-- **Jupyter Notebook** (for experimentation & prototyping)  
+## 🛠 Features  
+- Bias detection from raw trade logs  
+- Generate synthetic trade data for testing  
+- Visualize results via Jupyter notebooks  
+- Modular Python code for extensibility  
 
 ---
 
 ## 📂 Project Structure  
-
-```text
-tradebias_ai/
-│
-├── data/               # Trade data (CSV files)
-│   ├── raw/            # Raw input trade data
-│   └── processed/      # Processed / cleaned trade reports
-│
-├── notebooks/          # Jupyter notebooks for EDA & visualization
-│
-├── src/                # Core Python code
-│   ├── __init__.py
-│   ├── bias_detector.py
-│   ├── generate_synthetic.py
-│   └── tradebias.py
-│
-├── main.py             # Entry point script
-├── requirements.txt    # Python dependencies
-├── README.md           # Project documentation
-└── LICENSE             # MIT License
+```bash
+notebooks/              # Jupyter notebooks for EDA & visualization
+src/                    # Core Python code
+├── __init__.py
+├── bias_detector.py
+├── generate_synthetic.py
+├── tradebias.py
+main.py                 # Entry point script
+requirements.txt        # Python dependencies
+README.md               # Project documentation
+LICENSE                 # MIT License
+```
 
 ---
 
@@ -73,7 +55,26 @@ pip install -r requirements.txt
 
 # 3. Run the analysis on a sample trade log
 python -m tradebias.analyzer data/sample_trades.csv
+```
 
 ---
 
+## 🚀 Future Plans  
+- Add more trading bias detectors  
+- Build interactive dashboards for reports  
+- Expand to real-time trading analysis  
+- Integrate **AI models** to improve bias detection and predictive insights  
 
+---
+
+## 🤝 Contributing  
+Got ideas? Contributions are always welcome – open an issue or PR!  
+
+---
+
+## 📜 License  
+This project is licensed under the MIT License.  
+
+Made with ❤️ for traders who want to outsmart their own psychology.  
+
+---
