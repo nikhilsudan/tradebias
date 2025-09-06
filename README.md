@@ -37,25 +37,25 @@ This project highlights skills in **data cleaning, analysis, visualization, and 
 
 ## 📂 Project Structure  
 
-
+```text
 tradebias_ai/
 │
-├── data/ # Trade data (CSV files)
-│ ├── raw/ # Raw input trade data
-│ └── processed/ # Processed / cleaned trade reports
+├── data/               # Trade data (CSV files)
+│   ├── raw/            # Raw input trade data
+│   └── processed/      # Processed / cleaned trade reports
 │
-├── notebooks/ # Jupyter notebooks for EDA & visualization
+├── notebooks/          # Jupyter notebooks for EDA & visualization
 │
-├── src/ # Core Python code
-│ ├── init.py
-│ ├── bias_detector.py
-│ ├── generate_synthetic.py
-│ └── tradebias.py
+├── src/                # Core Python code
+│   ├── __init__.py
+│   ├── bias_detector.py
+│   ├── generate_synthetic.py
+│   └── tradebias.py
 │
-├── main.py # Entry point script
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-└── LICENSE # MIT License
+├── main.py             # Entry point script
+├── requirements.txt    # Python dependencies
+├── README.md           # Project documentation
+└── LICENSE             # MIT License
 
 ---
 
